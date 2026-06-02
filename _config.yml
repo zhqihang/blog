@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: QH-Blog
-subtitle: '记录技术与生活'
-description: '个人技术博客'
-keywords: 技术,博客,前端,后端
+title: Scriptorium
+subtitle: '代码即诗'
+description: '技术博客 - 记录编码、架构与思考'
+keywords: 技术,博客,编程,架构,前端,后端
 author: Qihang
 language: zh-CN
 timezone: 'Asia/Shanghai'
@@ -103,5 +103,5 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/zhqihang/blog.git
+  repo: git@github.com:zhqihang/blog.git
   branch: main

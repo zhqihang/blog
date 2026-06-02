@@ -40,8 +40,8 @@ subtitle:
   typed_option:
   source: false
   sub:
-    - 记录学习，分享技术
-    - Keep Learning, Keep Sharing
+    - 代码即诗，架构即思
+    - Code is Poetry, Architecture is Thought
 
 # 首页布局
 index_layout: 3
@@ -162,6 +162,5 @@ comments:
 # 暗黑模式
 darkmode:
   enable: true
-  # dark/light/auto
   button: true
-  autoChangeMode: false
+  autoChangeMode: 1

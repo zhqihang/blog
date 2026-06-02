@@ -4,7 +4,7 @@ date: 2026-06-02 22:13:20
 type: about
 ---
 
-## 👋 Hi，我是 Qihang
+## Hi，我是 Qihang
 
 一名全栈开发者，热爱技术，喜欢探索新鲜事物。
 
@@ -17,7 +17,7 @@ type: about
 
 ### 关于本博客
 
-使用 [Hexo](https://hexo.io/) 搭建，主题为 [Butterfly](https://butterfly.js.org/)，部署在 GitHub Pages。
+基于 [Hexo](https://hexo.io/) + [Butterfly](https://butterfly.js.org/) 搭建，部署在 GitHub Pages。
 
 在这里记录技术学习心得、项目经验和个人思考。
 
