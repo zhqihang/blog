@@ -1,0 +1,167 @@
+# --------------------------------------
+# Butterfly Theme Configuration
+# 文档: https://butterfly.js.org/
+# --------------------------------------
+
+# 导航菜单
+nav:
+  display_title: true
+  fixed: false
+
+menu:
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder
+  关于: /about/ || fas fa-user
+
+# 代码块
+code_blocks:
+  theme: darker
+  macStyle: false
+  copy: true
+  language: true
+  shrink: false
+
+# 社交媒体
+social:
+  fab fa-github: https://github.com/zhqihang || Github || '#24292e'
+
+# 网站图标和头像
+favicon:
+avatar:
+  img:
+  effect: false
+
+# 首页打字机效果
+subtitle:
+  enable: true
+  effect: true
+  typed_option:
+  source: false
+  sub:
+    - 记录学习，分享技术
+    - Keep Learning, Keep Sharing
+
+# 首页布局
+index_layout: 3
+index_post_content:
+  method: 3
+  length: 300
+
+# 文章设置
+post_meta:
+  page:
+    date_type: created
+    date_format: date
+    categories: true
+    tags: false
+    label: true
+  post:
+    position: left
+    date_type: both
+    date_format: date
+    categories: true
+    tags: true
+    label: true
+
+toc:
+  post: true
+  page: false
+  number: true
+  expand: false
+  style_simple: false
+  scroll_percent: true
+
+post_copyright:
+  enable: true
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+related_post:
+  enable: true
+  limit: 6
+
+post_pagination: 1
+
+# 页脚
+footer:
+  owner:
+    enable: true
+    since: 2026
+  copyright:
+    enable: true
+    version: true
+  custom_text:
+
+# 侧边栏
+aside:
+  enable: true
+  mobile: true
+  position: right
+  display:
+    archive: true
+    tag: true
+    category: true
+  card_author:
+    enable: true
+    description: 全栈开发者 / 技术爱好者
+    button:
+      enable: true
+      icon: fab fa-github
+      text: GitHub
+      link: https://github.com/zhqihang
+  card_announcement:
+    enable: true
+    content: 欢迎来到我的博客 👋
+  card_recent_post:
+    enable: true
+    limit: 5
+    sort: date
+  card_categories:
+    enable: true
+    limit: 8
+    expand: none
+  card_tags:
+    enable: true
+    limit: 20
+    expand: none
+  card_archives:
+    enable: true
+    type: monthly
+    format: MMMM YYYY
+    order: -1
+    limit: 8
+  card_webinfo:
+    enable: true
+    post_count: true
+    last_push_date: true
+
+# 右下角按钮
+rightside:
+  readmode: true
+  translate: true
+  darkmode: true
+  hideAside: true
+  toc: true
+  chat: false
+  comment: true
+
+# 搜索
+search:
+  use: local_search
+  local_search:
+    preload: false
+    top_n_per_page: 1
+
+# 评论 (暂时关闭，需要时再配置)
+comments:
+  use:
+  lazyload: true
+
+# 暗黑模式
+darkmode:
+  enable: true
+  # dark/light/auto
+  button: true
+  autoChangeMode: false
